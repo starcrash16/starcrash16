@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e14" />
+      <stop offset="50%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
+
+    <linearGradient id="cyan-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+
+    <pattern id="grid-pattern-dark" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1f2937" stroke-width="0.75" stroke-opacity="0.6"/>
+      <circle cx="40" cy="40" r="1" fill="#38bdf8" fill-opacity="0.25"/>
+    </pattern>
+
+    <style>
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-size: 44px;
+        font-weight: 800;
+        letter-spacing: 6px;
+        fill: #f8fafc;
+      }
+      .subtitle-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        letter-spacing: 2.5px;
+        fill: #94a3b8;
+      }
+      .tagline-text {
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        fill: #38bdf8;
+      }
+      .badge-box {
+        fill: #111827;
+        stroke: #1e293b;
+        stroke-width: 1;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="320" fill="url(#bg-grad-dark)" />
+  <rect width="1280" height="320" fill="url(#grid-pattern-dark)" />
+
+  <!-- Outer Border Frame -->
+  <rect x="16" y="16" width="1248" height="288" fill="none" stroke="#1f2937" stroke-width="1.5" rx="8" />
+
+  <!-- Decorative Corner Anchors -->
+  <path d="M 16 36 L 16 16 L 36 16" fill="none" stroke="#38bdf8" stroke-width="2.5" />
+  <path d="M 1264 36 L 1264 16 L 1244 16" fill="none" stroke="#38bdf8" stroke-width="2.5" />
+  <path d="M 16 284 L 16 304 L 36 304" fill="none" stroke="#38bdf8" stroke-width="2.5" />
+  <path d="M 1264 284 L 1264 304 L 1244 304" fill="none" stroke="#38bdf8" stroke-width="2.5" />
+
+  <!-- Left Abstract Systems Topology Graphic -->
+  <g opacity="0.65" transform="translate(48, 40)">
+    <!-- Circuit & Bus Lines -->
+    <path d="M 20 60 L 70 60 L 100 90 L 140 90" fill="none" stroke="#38bdf8" stroke-width="1.2" stroke-dasharray="4 2" />
+    <path d="M 40 180 L 80 180 L 110 150 L 160 150" fill="none" stroke="#818cf8" stroke-width="1.2" />
+    <path d="M 100 90 L 110 150" fill="none" stroke="#334155" stroke-width="1" />
+    <path d="M 70 60 L 40 180" fill="none" stroke="#1e293b" stroke-width="1" stroke-dasharray="2 2" />
+
+    <!-- Nodes -->
+    <circle cx="20" cy="60" r="4" fill="#0d1117" stroke="#38bdf8" stroke-width="2" />
+    <circle cx="70" cy="60" r="3" fill="#38bdf8" />
+    <circle cx="100" cy="90" r="4" fill="#0d1117" stroke="#818cf8" stroke-width="2" />
+    <circle cx="140" cy="90" r="3" fill="#818cf8" />
+    <circle cx="40" cy="180" r="3.5" fill="#38bdf8" />
+    <circle cx="80" cy="180" r="2.5" fill="#64748b" />
+    <circle cx="110" cy="150" r="4" fill="#0d1117" stroke="#38bdf8" stroke-width="2" />
+    <circle cx="160" cy="150" r="3" fill="#38bdf8" />
+
+    <!-- Technical Matrix Indicators -->
+    <text x="20" y="45" font-family="monospace" font-size="8" fill="#64748b">SYS_TOPOLOGY::L1</text>
+    <text x="20" y="205" font-family="monospace" font-size="8" fill="#64748b">NODE_STATUS: OPTIMAL</text>
+  </g>
+
+  <!-- Right Abstract Vector Graph Graphic -->
+  <g opacity="0.65" transform="translate(1040, 40)">
+    <!-- Circuit & Bus Lines -->
+    <path d="M 160 60 L 110 60 L 80 90 L 30 90" fill="none" stroke="#818cf8" stroke-width="1.2" stroke-dasharray="4 2" />
+    <path d="M 140 180 L 100 180 L 70 150 L 20 150" fill="none" stroke="#38bdf8" stroke-width="1.2" />
+    <path d="M 80 90 L 70 150" fill="none" stroke="#334155" stroke-width="1" />
+    <path d="M 110 60 L 140 180" fill="none" stroke="#1e293b" stroke-width="1" stroke-dasharray="2 2" />
+
+    <!-- Nodes -->
+    <circle cx="160" cy="60" r="4" fill="#0d1117" stroke="#818cf8" stroke-width="2" />
+    <circle cx="110" cy="60" r="3" fill="#818cf8" />
+    <circle cx="80" cy="90" r="4" fill="#0d1117" stroke="#38bdf8" stroke-width="2" />
+    <circle cx="30" cy="90" r="3" fill="#38bdf8" />
+    <circle cx="140" cy="180" r="3.5" fill="#818cf8" />
+    <circle cx="100" cy="180" r="2.5" fill="#64748b" />
+    <circle cx="70" cy="150" r="4" fill="#0d1117" stroke="#818cf8" stroke-width="2" />
+    <circle cx="20" cy="150" r="3" fill="#38bdf8" />
+
+    <!-- Technical Matrix Indicators -->
+    <text x="65" y="45" font-family="monospace" font-size="8" fill="#64748b">DIST_INFERENCE::R1</text>
+    <text x="85" y="205" font-family="monospace" font-size="8" fill="#64748b">MCP_SYNC: TRUE</text>
+  </g>
+
+  <!-- Central Content Area -->
+  <!-- Subtle Top Accent Line -->
+  <line x1="440" y1="62" x2="840" y2="62" stroke="url(#cyan-glow)" stroke-width="1.5" />
+
+  <!-- Main Title -->
+  <text x="640" y="112" text-anchor="middle" class="title-text">RENE DE ANDA</text>
+
+  <!-- Subtitle -->
+  <text x="640" y="156" text-anchor="middle" class="subtitle-text">APPLIED AI ENGINEER | DISTRIBUTED SYSTEMS &amp; CLOUD INFRASTRUCTURE</text>
+
+  <!-- Divider Line -->
+  <line x1="500" y1="184" x2="780" y2="184" stroke="#334155" stroke-width="1" />
+
+  <!-- Tagline Badge -->
+  <rect x="290" y="210" width="700" height="38" rx="6" class="badge-box" />
+  <text x="640" y="234" text-anchor="middle" class="tagline-text">RAG SYSTEMS • MODEL CONTEXT PROTOCOL • OCI DEVOPS CERTIFIED • ICPC REGIONALIST</text>
+
+  <!-- Bottom Coordinates -->
+  <text x="640" y="280" text-anchor="middle" font-family="monospace" font-size="10" fill="#475569" letter-spacing="2">AUTONOMOUS UNIVERSITY OF AGUASCALIENTES | CSE B.S.</text>
+</svg>
