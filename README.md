@@ -6,7 +6,16 @@
 
 ## Executive Summary
 
-Applied AI and Systems Engineer specialized in architecting deterministic agentic systems, enterprise-grade Retrieval-Augmented Generation (RAG) pipelines, and distributed inference topologies. Proven background deploying production microservices and serverless workflows across Oracle Cloud Infrastructure (OCI) and AWS, integrating standard interoperability protocols like Model Context Protocol (MCP), and fine-tuning domain-specific language models. Strong foundation in algorithmic optimization, low-latency architectures, and distributed systems.
+Applied AI and Systems Engineer specialized in architecting deterministic agentic systems, enterprise-grade Retrieval-Augmented Generation (RAG) pipelines. Proven background deploying production microservices and serverless workflows across Oracle Cloud Infrastructure (OCI) and AWS, integrating standard interoperability protocols like Model Context Protocol (MCP), and fine-tuning domain-specific language models. Strong foundation in algorithmic optimization, low-latency architectures, and distributed systems.
+
+
+---
+
+## Professional Coordinates
+
+- **LinkedIn**: [linkedin.com/in/renedeanda](https://www.linkedin.com/in/renedeanda)
+- **GitHub**: [github.com/starcrash16](https://github.com/starcrash16)
+- **Email**: [rene.deanda.m@gmail.com](mailto:rene.deanda.m@gmail.com)
 
 ---
 
@@ -81,10 +90,3 @@ Applied AI and Systems Engineer specialized in architecting deterministic agenti
   </table>
 </div>
 
----
-
-## Professional Coordinates
-
-- **LinkedIn**: [linkedin.com/in/renedeanda](https://www.linkedin.com/in/renedeanda)
-- **GitHub**: [github.com/starcrash16](https://github.com/starcrash16)
-- **Email**: [rene.deanda.m@gmail.com](mailto:rene.deanda.m@gmail.com)
